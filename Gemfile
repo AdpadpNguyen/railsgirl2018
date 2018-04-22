@@ -6,7 +6,7 @@ ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 gem 'carrierwave'
 gem 'net-ssh'
 
@@ -64,6 +64,9 @@ end
 gem 'devise', '~> 4.4.3'
 gem 'mini_magick', '3.8.0'
 gem "cloudinary"
+group :development do
+  gem 'sqlite3'
+end
 group :production do
   gem 'pg'
 end
