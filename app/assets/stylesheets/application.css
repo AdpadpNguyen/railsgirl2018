@@ -32,3 +32,8 @@ th { border-bottom: 1px solid #DDD; }
   background-color: transparent;
   text-decoration: none;
 }
+
+footer {
+  background-color: #ebebeb;
+  padding: 30px 0;
+}
