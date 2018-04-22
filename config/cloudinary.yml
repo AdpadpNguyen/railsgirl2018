@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: adpadpnguyen
+  api_key: '747893332782584'
+  api_secret: 7Mk75Kx29FA82CsM0c-n8EbuEhE
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: adpadpnguyen
+  api_key: '747893332782584'
+  api_secret: 7Mk75Kx29FA82CsM0c-n8EbuEhE
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: adpadpnguyen
+  api_key: '747893332782584'
+  api_secret: 7Mk75Kx29FA82CsM0c-n8EbuEhE
+  enhance_image_tag: true
+  static_image_support: false
